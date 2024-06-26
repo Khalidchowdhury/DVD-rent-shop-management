@@ -1,0 +1,52 @@
+To Add:
+- Transaction History on dashboard (Sales Overview)
+
+Admin Login
+- Full access capabilities (dashboard)
+- Edit employees, employee schedule, add/edit movies, sales overview, export report (on web and backend),
+- Employee List: First Name, Last Name, Employee ID, E-mail, Phone Number Current Mailing Address
+
+Employee Login Access
+- Enter, edit, query data (ex: movie categories)
+
+- Add/edit customers:
+  -Customer Information: First Name, Last Name, E-mail, Phone Number, Current Mailing Address
+
+- Add/edit movies:
+ - Movies: Title, Genre(s), Release Year, Movie Length (minutes), Language, Director, Main Actress, Main Actor, Linked DVDs (Unique ID assigned for each DVD), Inventory Quantity
+ - Rental Category for every movie: 
+  - Current Hit = $2.00
+  - Current Release = $1.50
+  - Popular = $1.00
+  - Regular = $0.50
+
+- Payment Methods: Option for Cash, Credit Card, Check (No need to process just a pretend transaction)
+- Rental Transactions by: Customer, Date of Rental, Due Date, Customer Member ID, Rental Cost (with Sales Tax included)
+
+- Revenue Reports for:
+ - Daily, Weekly or Monthly Revenue Reporty by: Date, DVD Rental, Total Rental Revenue
+
+
+
+Customer Login
+- Limited access capabilities to search movies and inventory available
+
+- Make reservations for available inventory
+
+- View previous order history
+
+
+Processes
+- Unique ID Generator: Customer IDs, DVD IDs
+
+- DVD Rental Fee: Total Cost of Rental calculated through Rental Category with Sales Tax
+  - New
+included automatically
+
+- Payment Methods Process: Option for Cash, Credit Card, Check for Rental Fees (Pretend transaction)
+
+- Rental Transaction Process: Use DVD ID to identify Rent Out Date, Return Date and Customer Member ID to be automatically updated in Rental Transaction spreadsheet
+
+- DVD Return Process: DVD ID entered to Rental Transactions to verify Return Date, Rent Out Date with Customer Member ID
+
+- Customer Identity Verification: Rental Transactions allowed only through verified Customer IDs with up-to-date information (current address and Photo ID confirmation radio buttons)
